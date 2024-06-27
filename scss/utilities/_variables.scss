@@ -1,0 +1,38 @@
+// COLORS ----------------------/
+$color-pri: #58e1c1;
+$color-sec: #51ddfc;
+$color-teri: #777;
+$color-quat: #fff;
+
+$img-border: 1px solid #ccc;
+
+$btn-error: #e4757a;
+$btn-info: #927bc1;
+$btn-success: #63cc82;
+$btn-warning: #fd7856;
+
+
+// FONTS ----------------------/
+
+$font-primary: 'Lato', sans-serif;
+
+$font-light: 300;
+$font-bold: 700;
+
+
+// STYLING -------------------/
+
+$primary-rad: 5px;
+
+
+// BUTTONS -------------------/
+
+$buttons: (
+    'default': $color-sec,
+    'error': $btn-error,
+    'info': $btn-info,
+    'success': $btn-success,
+    'warning': $btn-warning,
+)
+
+

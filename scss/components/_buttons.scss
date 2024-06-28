@@ -15,5 +15,8 @@
 @each $button, $color in $buttons {
   .#{$button} {
     background-color: $color;
+    &:hover {
+      background-color: lighten($color, 12%);
+    }
   }
 }
